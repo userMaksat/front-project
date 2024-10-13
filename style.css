@@ -259,7 +259,7 @@ a:hover {
 
 .contact .container {
     margin-top: 60px;
-    box-shadow: 0 0 0 10px #FD5500;
+    box-shadow: 0 0 0 2px #FD5500;
     height: 70vh;
     border-radius: 15px;
     display: flex;
@@ -296,6 +296,16 @@ a:hover {
 @media (max-width: 800px) {
     .container {
         max-width: 700px;
+    }
+    .main .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .main__title {
+        text-align: center;
+    }
+    .nav .container {
+        visibility: hidden;
     }
     * {
         /* text-align: center; */
